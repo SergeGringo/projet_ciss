@@ -1,0 +1,562 @@
+@media ((max-width: 1400px ) and (min-width: 1000px )) {
+  .margeur p {
+    font-size: 20px;
+  }
+  .droite {
+    padding: 20px;
+  }
+  .droite img {
+    height: 70%;
+    width: 100%;
+  }
+  .first,
+  .third {
+    height: auto;
+  }
+  .third .picture,
+  .first .imagerie {
+    height: 200px;
+  }
+
+  .parag_1 p {
+    -webkit-line-clamp: 3;
+  }
+  .creator {
+    width: 100%;
+  }
+  .creator h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .entete {
+    height: 480px;
+  }
+  .by_st h2 {
+    font-size: 80px;
+  }
+  .by_st {
+    right: 5%;
+  }
+  .temoins .t2 {
+    padding: 10px;
+  }
+  .temoins .t1 {
+    height: 400px;
+  }
+  .t23 {
+    height: 300px;
+  }
+  .cartes {
+    height: 144px;
+  }
+  .t2 h3 {
+    line-height: normal;
+    padding-bottom: 0;
+  }
+  .star {
+    margin-bottom: 40px;
+  }
+  .colum {
+    height: 300px;
+    width: 100%;
+  }
+  .creatored h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .creatored p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .be_cisst {
+    padding: 40px 0;
+  }
+  .be_moised .h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .be_moised {
+    padding: 0 20px;
+  }
+  .strengh {
+    display: block;
+    height: auto;
+  }
+  .strengh .col-lg-6 {
+    width: 100%;
+  }
+  /* .col-lg-6 {
+    width: 100%;
+  } */
+  .fond p {
+    line-height: 80px;
+  }
+  #map {
+    height: 800px;
+  }
+  .find_mag {
+    height: auto;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  .map {
+    padding: 50px 10px;
+  }
+  .liste_mag0 .sommet {
+    padding: 5px 29px;
+  }
+  .taille p,
+  .tailles p {
+    font-size: 20px;
+  }
+  .swiper-slide .store_name {
+    bottom: 50px;
+  }
+  .btns{
+    position: absolute;
+    bottom: auto;
+    margin-top: -20%;
+    right: 10%;
+  }
+}
+@media (max-width: 999px) {
+  .by_st h2 {
+    font-size: 60px;
+  }
+  .imgA {
+    height: 700px;
+  }
+  .by_st {
+    right: 5%;
+  }
+  /* .by_st h2 {
+    font-size: 70px;
+  } */
+  .entete {
+    height: 420px;
+  }
+  .compte .image_ciss {
+    height: 400px;
+  }
+  .temoins .t2 {
+    padding: 50px 20px 10px 20px;
+  }
+  .leadership {
+    height: 300px;
+  }
+  .cartes {
+    height: 100%;
+  }
+  .star {
+    margin-bottom: 40px;
+  }
+  .colum {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colom1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .colom1 .columa,
+  .colom1 .columb {
+    width: 100%;
+    height: 100%;
+  }
+  .colom2 {
+    width: auto;
+    height: auto;
+  }
+  .columa {
+    padding: 20px 0;
+  }
+  .strengh {
+    height: auto;
+  }
+  .creatored p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .creatored h1 {
+    line-height: 60px;
+    font-size: 40px;
+  }
+  .be_cisst {
+    padding: 30px 0;
+  }
+  .be_moised {
+    padding: 0;
+  }
+  #map {
+    height: 300px;
+  }
+  .find_mag {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  #acceuil .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .taille p,
+  .tailles p {
+    font-size: 25px;
+  }
+  .fond p {
+    line-height: 100px;
+  }
+  .taille img,
+  .tailles img {
+    padding: 10px;
+  }
+  .nav-item .ligne i {
+    display: none;
+  }
+  .items_liste {
+    flex-direction: column;
+  }
+
+  .swiper-slide .store_name {
+    bottom: 50px;
+  }
+  .third {
+    height: auto;
+  }
+  .btns {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+  .annee{
+    right: auto;
+  }
+  .creator {
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .items_liste {
+    flex-direction: column;
+  }
+  .pays {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .creator {
+    width: 100%;
+  }
+  .parag_1 p {
+    -webkit-line-clamp: 1;
+  }
+  .third .picture,
+  .first .imagerie {
+    height: 500px;
+  }
+  .second {
+    margin-top: 20px;
+  }
+  .flexions {
+    width: 90%;
+  }
+  .entete {
+    height: 350px;
+  }
+  .by_st h2 {
+    font-size: 50px;
+  }
+  .event {
+    width: 96%;
+  }
+  .star {
+    margin-bottom: 40px;
+  }
+  .first_event {
+    height: 300px;
+  }
+  .para_button p {
+    font-size: 25px;
+  }
+  .nav-item .ligne i {
+    display: none;
+  }
+  .by_st {
+    right: 13%;
+  }
+  .compte .image_ciss {
+    height: 250px;
+  }
+  .temoins .t2 {
+    padding: 50px 0 0 0;
+  }
+  .leadership {
+    height: 450px;
+  }
+  .cartes {
+    height: auto;
+  }
+  /* .flexeurs{
+    display: grid;
+    grid-template-columns: repeat(3.1fr);
+  } */
+  .colum {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colom1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .colom1 .columa,
+  .colom1 .columb {
+    width: 100%;
+    height: 100%;
+  }
+  .colom2 {
+    width: auto;
+    height: auto;
+  }
+  .columa {
+    padding: 20px 0;
+  }
+  .strengh {
+    height: auto;
+  }
+  .creatored p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .creatored h1 {
+    line-height: 60px;
+    font-size: 40px;
+  }
+  .be_cisst {
+    padding: 30px 0;
+  }
+  .be_moised {
+    padding: 0;
+  }
+  #map {
+    height: 300px;
+  }
+  .find_mag {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .swiper-slide .store_name {
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: block;
+  }
+  .st {
+    display: none;
+  }
+  nav .liste li {
+    line-height: 10px;
+    padding: 0 10px;
+    color: #2a613a;
+  }
+  footer .liste li a {
+    line-height: 10px;
+    padding: 0px;
+  }
+  .ligne i {
+    display: none;
+  }
+
+  .items_liste {
+    display: block;
+  }
+  .pays {
+    margin: 0 25px;
+    margin-top: 30px;
+  }
+  footer .liste {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    gap: 20px;
+  }
+  .politique {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    gap: 20px;
+  }
+  .creator h1 {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .be_ciss {
+    padding: 10px;
+  }
+  .third .picture,
+  .first .imagerie {
+    height: 300px;
+  }
+  .swiper-slide {
+    height: 300px;
+  }
+  .annee {
+    font-size: 100px;
+  }
+  .conteneur {
+    padding: 0;
+  }
+  .entete {
+    height: 180px;
+  }
+  .compte {
+    padding: 20px;
+  }
+  .star,
+  .first_event {
+    height: 200px;
+  }
+  .event {
+    height: 80px;
+    width: 94%;
+  }
+  .event p {
+    font-size: 40px;
+  }
+  .by_st h2 {
+    font-size: 35px;
+  }
+  .imgA {
+    height: 510px;
+  }
+  .by_st {
+    right: 5%;
+  }
+
+  /* responsive styliste */
+
+  .compte .image_ciss {
+    height: 200px;
+  }
+  .last_edition {
+    padding: 30px 0;
+  }
+  .last_edition h2 {
+    font-size: 30px;
+  }
+  .temoins {
+    margin: 0;
+  }
+  .temoins .t1 {
+    height: 300px;
+  }
+  .temoins .t2 {
+    padding: 50px 0 0 0;
+  }
+  .t2 h3 {
+    font-size: 20px;
+  }
+  .leadership {
+    height: 200px;
+  }
+  .ceremonie p {
+    font-size: 15px;
+  }
+  .para_button a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .columb .p01 img {
+    width: 100%;
+    height: 200px;
+  }
+  .flou_img {
+    width: 100%;
+    height: 200px;
+  }
+  .voile p {
+    font-size: 15px;
+  }
+  .cisst_img img {
+    height: 300px;
+    width: 100%;
+  }
+  .creatored h1 {
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .quadriller {
+    height: 320px;
+  }
+  .quadriller img {
+    width: 100%;
+    height: 300px;
+  }
+  .be_moised .h2 {
+    font-size: 40px;
+    /* font-family: "Abril Fatface", serif; */
+    line-height: 50px;
+  }
+  .progress-text {
+    font-size: 15px;
+  }
+  .fond p {
+    line-height: 70px;
+  }
+  .map {
+    padding: 30px 5px;
+    height: 900px;
+  }
+  .find_mag {
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .liste_mag0 {
+    overflow: auto;
+  }
+  #map {
+    height: 100%;
+  }
+  .liste_mag1 ul li {
+    padding: 15px 5px;
+    font-size: 13px;
+  }
+  .pendule img {
+    width: 200px;
+  }
+  .back_color {
+    width: 150px;
+    height: 150px;
+  }
+  .slick-nexts,
+  .slick-prevs {
+    position: absolute;
+    bottom: -50px;
+  }
+  .swiper-slide .store_name {
+    bottom: 0;
+  }
+  .collect h2{
+    padding: 0;
+  }
+}
